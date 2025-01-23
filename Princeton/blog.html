@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my college website</title>
+	<link rel="stylesheet" type="text/css" href="Asset/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.nav-links ul li:nth-child(4)::after {
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<section class="sub-header">
+
+		<nav>
+			<a href="index.html"><img src="Asset/image/Princeton-University-logo copy.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Certificate & Online Programs</h1>
+	</section>
+
+
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+		<img src="Asset/image/certificate.jpg">
+		<h2>Our Certificate & Online Programs</h2>
+		<p>Regardless of which IT field you’re interested in, certifications add extra weight and gravitas to your skill set and value as a job candidate. Whether it's IT programming certifications, developer certifications, or one of the countless other offerings, certifications offer tangible, measurable proof that you have the necessary understanding for the position you're applying for.<br><br><br>
+
+		There are many programming jobs out there, but plenty of candidates are also looking to fill those vacancies. If you gain some programming certifications, you can stand out from the pack and not only become more likely to get picked but possibly even get a better salary offer.<br><br><br>
+
+		Here are ten programming certificationsin to help you round out your resume and skillset. But first, let’s look at what programming certifications are.<br><br>
+
+		In general terms, programming certifications are designed to prepare you for an entry-level position as a programmer. Students with a programming certificate receive a grounding in various programming languages. In addition, they can often choose electives that focus on different aspects of programming such as Java and mobile applications programming, web programming, database management, or even game programming.<br><br>
+
+		Some experienced programmers also pursue programming certifications to upskill. There's no such thing as having too much knowledge and skills in the fast-paced, ever-changing IT world!</p>
+
+		<div class="comment-box">
+			<h3>Leave a comment</h3>
+
+			<form class="comment-form">
+				<input type="text" placeholder="Enter Name">
+				<input type="email" placeholder="Enter Email">
+				<textarea rows="5" placeholder="Your Comment"></textarea>
+				<button type="submit" class="hero-btn">POST COMMENT</button>
+			</form>
+		</div>
+
+	</div>
+	<div class="blog-right">
+		<h3>Post Categories</h3>
+		<div>
+			<span>Business Analytics</span>
+			<span>21</span>
+		</div>
+		<div>
+			<span>Data Science</span>
+			<span>28</span>
+		</div>
+		<div>
+			<span>Machine Learning</span>
+			<span>15</span>
+		</div>
+		<div>
+			<span>Computer Science</span>
+			<span>34</span>
+		</div>
+		<div>
+			<span>AutoCAD</span>
+			<span>42</span>
+		</div>
+		<div>
+			<span>Commerce</span>
+			<span>30</span>
+		</div>
+	</div>
+	</div>
+</section>
+
+
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>As a global research university, Princeton seeks to achieve the highest levels of distination <br>in the discovery and transmission of knoeledge and understanding.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+</section>
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px"
+		}
+	</script>
+</body>
+</html>

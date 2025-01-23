@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>my college website</title>
+	<link rel="stylesheet" type="text/css" href="Asset/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		.nav-links ul li:nth-child(3)::after {
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<section class="sub-header">
+
+		<nav>
+			<a href="index.html"><img src="Asset/image/Princeton-University-logo copy.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="login.html">LOGIN</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our Courses</h1>
+	</section>
+
+	<section class="course">
+	<h1>Course we offer</h1>
+	<p>Lorem ipsum dolor sit amet, consecg
+		<div class="course-col">
+			<h3>Post Graduation</h3>
+			<p>Postgraduation education refers to the stage of higher education that follows the completion of an undergraduate degree. It encompasses a range of advanced programs and qualifications that allow individuals to deepen their knowedge, specialize in a particular field, or purse academic or professional research.</p>
+		</div>
+	</div>
+	<div class="col2">
+            <strong style="font-size: 2.25em;">Category</strong>
+             	
+             		<div id="cat">
+             			<a href="#">BBA</a><br>
+                		<a href="#">BCA</a><br>
+                		<a href="#">MCA</a><br>
+                		<a href="#">Business Analytics</a><br>
+                		<a href="#">Data Science</a><br>
+                		<a href="#">Machine Learning</a><br>
+                		<a href="#">Computer Science</a><br>
+                		<a href="#">AutoCAD</a><br>
+                		<a href="#">Commerce</a>
+             		</div>
+             	</div>
+        </div>
+</section>
+
+<section class="facilities">
+	<h1>Our Facilities</h1>
+	<p>The basic infrastructure consitutes modern academic facilities, sports , library, playground,<br> and recreational facilities, total computerization of the different campuses and deparments<br> of the institution with networking facitity.</p>
+
+	<div class="row">
+		<div class="facilities-col">
+			<img src="Asset/image/library.png">
+			<h3>World Class Library</h3>
+		</div>
+		<div class="facilities-col">
+			<img src="Asset/image/basketball.png">
+			<h3>Largest Playgroud</h3>
+		</div>
+		<div class="facilities-col">
+			<img src="Asset/image/cafeteria.png">
+			<h3>Testy and Healthy Food</h3>
+		</div>
+	</div>
+</section>
+
+
+
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>As a global research university, Princeton seeks to achieve the highest levels of distination <br>in the discovery and transmission of knoeledge and understanding.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+</section>
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px"
+		}
+	</script>
+</body>
+</html>
