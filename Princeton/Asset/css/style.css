@@ -109,7 +109,7 @@ nav i.fa{
 	transition: 1s;
 	}
 	nav .fa{
-		display: block;
+		display: block !important;
 		color: #fff;
 		margin: 10px;
 		font-size: 22px;
